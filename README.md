@@ -1,6 +1,7 @@
 # Tales
 
 General Architecture of the system
+
 Frontend: The frontend is built using React.js, responsible for presenting the user interface to the users. It allows users to add a title and a story text entry, which are then sent to the backend for processing.
 
 Backend: The backend is built using Node.js and Express.js. It serves as the intermediary between the front end and various external services and databases. It receives the user inputs from the front end and communicates with the MongoDB database hosted on the cloud (Atlas) using Mongoose to save the title and story text.
