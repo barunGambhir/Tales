@@ -11,7 +11,6 @@ const fs = require("fs");
 const util = require("util");
 
 const jwt = require("../frontend/node_modules/jsonwebtoken");
-const JWT_SECRET = "erjvbjrnjrnjrnvjnjrnejknkeker";
 
 const { Configuration, OpenAIApi } = require("../frontend/node_modules/openai");
 
@@ -161,24 +160,6 @@ app.get("*", (req, res) => {
 const textToSpeech = require("../frontend/node_modules/@google-cloud/text-to-speech");
 //const { default: mongoose } = require('mongoose');
 
-const client = new textToSpeech.TextToSpeechClient({
-  keyFilename: "gurkiratsingh301566100-c00be2548a69.json",
-});
-
-const configuration = new Configuration({
-  organization: "org-qWb5TjrbGzijhFn338vypkqW",
-  apiKey: "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",
-});
-const openai = new OpenAIApi(configuration);
-const prompt =
-  "Assume i have to create image which would show only one main character from this line or paragraph and some context of backgroud if neccessary. In one sentence of no more than 15 words tell what would you would see in the picture. keep tha language and words simple. The line is --";
-
-const sdk = require("../frontend/node_modules/api")(
-  "@leonardoai/v1.0#28807z41owlgnis8jg"
-);
-
-sdk.auth("91c616c9-a7bf-4c8b-98fb-7893e4a97601"); //user name for leonardo
-
 async function convertTextToMp3(para) {
   const request = {
     audioConfig: {
@@ -219,7 +200,6 @@ const createGeneration = async (generatedPrompt) => {
   try {
     const generationResponse = await sdk.createGeneration({
       prompt: generatedPrompt,
-      modelId: 'ac614f96-1082-45bf-be9d-757f2d31c174',
       width: 768,
       height: 768,
       //sd_version: 'v2',
