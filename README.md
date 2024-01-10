@@ -12,19 +12,19 @@ Tales is a web app that allows users to bring their stories to life. Using user-
 ![GitHub Logo](https://github.com/barunGambhir/Tales/raw/main/files/Home_Page.png)
 
 - **Sign-Up Page** 
-![GitHub Logo](https://github.com/barunGambhir/Tales/raw/main/files/Sign_Up_Page.png
+![GitHub Logo](https://github.com/barunGambhir/Tales/raw/main/files/Sign_Up_Page.png)
 
 - **Feed Page** 
-![GitHub Logo](https://github.com/barunGambhir/Tales/raw/main/files/Feed_Page.png
+![GitHub Logo](https://github.com/barunGambhir/Tales/raw/main/files/Feed_Page.png)
 
 - **Create Post Page** 
 ![GitHub Logo](https://github.com/barunGambhir/Tales/raw/main/files/Create_Post_Page.png)
 
 - **Profile Page** 
-![GitHub Logo](https://github.com/barunGambhir/Tales/raw/main/files/Profile_Page.png
+![GitHub Logo](https://github.com/barunGambhir/Tales/raw/main/files/Profile_Page.png)
 
 - **Profile Edit Page** 
-![GitHub Logo](https://github.com/barunGambhir/Tales/raw/main/files/Profile_Edit_Page.png
+![GitHub Logo](https://github.com/barunGambhir/Tales/raw/main/files/Profile_Edit_Page.png)
 
 ## Technologies Used
 
@@ -36,7 +36,7 @@ Tales is a web app that allows users to bring their stories to life. Using user-
 
 ## Installation
 
-To use [Your Web App Name], follow these steps:
+To use Tales, follow these steps:
 
 1. Clone this repository: `git clone https://github.com/barunGambhir/Tales.git`
 2. Change directory to /frontend
