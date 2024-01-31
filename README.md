@@ -18,7 +18,7 @@ Tales is a web app that allows users to bring their stories to life. Using user-
 ![GitHub Logo](https://github.com/barunGambhir/Tales/raw/main/files/Feed_Page.png)
 
 - **Create Post Page** 
-![GitHub Logo](https://github.com/barunGambhir/Tales/raw/main/files/Create_Post_Page.png)
+![GitHub Logo](https://github.com/barunGambhir/Tales/raw/main/files/Create_Post_page.png)
 
 - **Profile Page** 
 ![GitHub Logo](https://github.com/barunGambhir/Tales/raw/main/files/Profile_Page.png)
